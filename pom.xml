@@ -1,0 +1,29 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.iamvoragun</groupId>
+    <artifactId>iamvoragun-service</artifactId>
+    <version>beta</version>
+    
+    <build>
+        <sourceDirectory>java/code</sourceDirectory>
+        <testSourceDirectory>java/test</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>java/data</directory>
+            </resource>
+        </resources>
+    </build>
+    
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+    </properties>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+    </dependencies>
+</project>
